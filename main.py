@@ -1,6 +1,13 @@
 print("Hello World")
 
 
+# python programs for add two numbers
+
+a = int(input())
+b = int(input())
+c = a+b
+print("the sum of {} and {} is : {} ".format(a,b,c))
+=======
 kilometers = float(input("Enter value in kilometers: "))
 
 # conversion factor
@@ -46,3 +53,4 @@ s = (a + b + c) / 2
 # calculate the area
 area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
 print('The area of the triangle is %0.2f' %area)
+
