@@ -1,8 +1,43 @@
 print("Hello World")
 
+
 import random
 
 print(random.randint(0,9))
+
+=======
+
+# python programs for add two numbers
+
+a = int(input())
+b = int(input())
+c = a+b
+print("the sum of {} and {} is : {} ".format(a,b,c))
+=======
+kilometers = float(input("Enter value in kilometers: "))
+
+# conversion factor
+conv_fac = 0.621371
+
+# calculate miles
+miles = kilometers * conv_fac
+print('%0.2f kilometers is equal to %0.2f miles' %(kilometers,miles))
+=======
+# import complex math module
+import cmath
+
+a = 1
+b = 5
+c = 6
+
+
+d = (b**2) - (4*a*c)
+
+# find two solutions
+sol1 = (-b-cmath.sqrt(d))/(2*a)
+sol2 = (-b+cmath.sqrt(d))/(2*a)
+
+print('The solution are {0} and {1}'.format(sol1,sol2))
 
 # Python Program to Calculate the Area of a Triangle
 # In this program, you'll learn to calculate the area of a triangle and display it.
